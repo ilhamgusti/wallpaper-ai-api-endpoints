@@ -12,7 +12,7 @@ def check_api_availability(host):
             print(f"API is not available, retrying in 3s... ({e})")
         except Exception as e:
             print('something went wrong')
-        time.sleep(3)
+        time.sleep(2)
 
 check_api_availability("http://127.0.0.1:3000/sdapi/v1/txt2img")
 
