@@ -31,5 +31,5 @@ jobs:
       with:
         name: 'MINOR'
         value: $((${{ secrets.MINOR }}+1))
-        repository: EriksonGM/MasterReport
+        repository: ilhamgusti/wallpaper-ai-api-endpoints
         token: ${{ secrets.REPO_ACCESS_TOKEN }}
