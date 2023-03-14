@@ -9,10 +9,10 @@ def check_api_availability(host):
             response = requests.get(host)
             return
         except requests.exceptions.RequestException as e:
-            print(f"API is not available, retrying in 3s... ({e})")
+            print(f"API is not available, retrying in 200ms... ({e})")
         except Exception as e:
             print('something went wrong')
-        time.sleep(2)
+        time.sleep(200/1000)
 
 check_api_availability("http://127.0.0.1:3000/sdapi/v1/txt2img")
 
