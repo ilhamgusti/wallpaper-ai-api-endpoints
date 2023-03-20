@@ -1,4 +1,4 @@
-FROM ilhamgusti/wallpaper-ai-template:1.0.0
+FROM ilhamgusti/wallpaper-ai-template:1.1.0
 
 SHELL ["/bin/bash", "-c"]
 
